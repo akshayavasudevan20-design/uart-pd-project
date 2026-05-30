@@ -10,12 +10,10 @@ A complete UART Transmitter designed from RTL to GDSII using OpenLane on sky130A
 UART (Universal Asynchronous Receiver Transmitter) is a serial communication protocol used in virtually every chip that communicates with the outside world — microcontrollers, sensors, GPS modules, and more.
 
 ## Project Structure
-uart-pd-project/
-├── src/uart_tx.v          # Verilog RTL design
-├── config/config.json     # OpenLane configuration
-├── config/constraints.sdc # Timing constraints
-└── dashboard/dashboard.py # Python PD metrics dashboard
-
+- src/uart_tx.v — Verilog RTL design
+- config/config.json — OpenLane configuration
+- config/constraints.sdc — Timing constraints
+- dashboard/dashboard.py — Python PD metrics dashboard
 ## Tools Used
 - **OpenLane** — open source RTL to GDSII flow
 - **sky130A PDK** — Google/SkyWater 130nm process
